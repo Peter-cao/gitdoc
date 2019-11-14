@@ -8,12 +8,12 @@
                     "mdlink": "index"
                 },
                 {
-                    "subject": "组件定义",
-                    "mdlink": "component"
+                    "subject": "组件和页面",
+                    "mdlink": "comppage"
                 },
                 {
-                    "subject": "页面定义",
-                    "mdlink": "page"
+                    "subject": "公共说明",
+                    "mdlink": "common"
                 },
                 {
                     "subject": "开始使用",
