@@ -12,9 +12,31 @@
 <img src="./ide.png"/>
 
 
+
+
 ## 第二步：新建应用
 
 点击<code>新建应用</code>菜单，在弹出面板中输入<code>项目名称</code>和<code>工作空间</code>，点击确定即可完成应用的创建。
+
+基础目录说明：
+
+<code>.bbuilder</code>目录：工程配置目录，请勿改动
+
+<code>build</code>目录：构建资源目录，所有平台的模板均在此目录，可根据实际情况修改，一般情况无需改动
+
+<code>src</code>目录：源码目录，编写的所有代码均在此处，外部无效。内部一般根据功能分为pages、components、assets、resources等目录。
+
+<code>package.json</code>文件：项目基本配置文件，该文件主要用于构建，如果是小程序里的依赖包，请单独在小程序内安装。
+
+构建产物目录说明：
+
+<code>node_modules</code>目录：构建所需的依赖模块目录。
+
+<code>out-browser</code>目录：浏览器代码输出目录。
+
+<code>out-miniprogram</code>目录：微信小程序代码输出目录。
+
+<code>out-aliapp</code>目录：阿里小程序代码输出目录。
 
 
 ## 第三步：安装依赖
