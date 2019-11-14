@@ -108,6 +108,14 @@
             "group": "API(js接口)",
             "contains": [
                 {
+                    "subject": "应用信息",
+                    "mdlink": "app"
+                },
+                {
+                    "subject": "路由",
+                    "mdlink": "navigator"
+                },
+                {
                     "subject": "网络",
                     "mdlink": "net"
                 },
