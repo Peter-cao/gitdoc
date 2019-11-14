@@ -9,7 +9,7 @@
 
 安装后IDE的结构如下：
 
-<img src="./ide.jpg"/>
+<img src="./ide.png"/>
 
 
 ## 第二步：新建应用
