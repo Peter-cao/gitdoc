@@ -1,0 +1,137 @@
+{
+    "contains": [
+        {
+            "group": "框架介绍",
+            "contains": [
+                {
+                    "subject": "框架介绍",
+                    "mdlink": "index"
+                },
+                {
+                    "subject": "组件定义",
+                    "mdlink": "component"
+                },
+                {
+                    "subject": "页面定义",
+                    "mdlink": "page"
+                },
+                {
+                    "subject": "开始使用",
+                    "mdlink": "start"
+                }
+            ]
+        },
+        {
+            "group": "基础组件使用",
+            "contains": [
+                {
+                    "subject": "button",
+                    "mdlink": "button"
+                },
+                {
+                    "subject":"checkbox",
+                    "mdlink": "checkbox"
+                },
+                {
+                    "subject":"icon",
+                    "mdlink": "icon"
+                },
+                {
+                    "subject":"image",
+                    "mdlink": "image"
+                },
+                {
+                    "subject":"input",
+                    "mdlink": "input"
+                },
+                {
+                    "subject":"label",
+                    "mdlink": "label"
+                },
+                {
+                    "subject":"select",
+                    "mdlink": "select"
+                },
+                {
+                    "subject":"pickdate",
+                    "mdlink": "pickdate"
+                },
+                {
+                    "subject":"picktime",
+                    "mdlink": "picktime"
+                },
+                {
+                    "subject":"progress",
+                    "mdlink": "progress"
+                },
+                {
+                    "subject":"radio",
+                    "mdlink": "radio"
+                },
+                {
+                    "subject":"refresh",
+                    "mdlink": "refresh"
+                },
+                {
+                    "subject":"richtext",
+                    "mdlink": "richtext"
+                },
+                {
+                    "subject":"scrollview",
+                    "mdlink": "scrollview"
+                },
+                {
+                    "subject":"swiper",
+                    "mdlink": "swiper"
+                },
+                {
+                    "subject":"switch",
+                    "mdlink": "switch"
+                },
+                {
+                    "subject":"text",
+                    "mdlink": "text"
+                },
+                {
+                    "subject":"textarea",
+                    "mdlink": "textarea"
+                },
+                {
+                    "subject":"view",
+                    "mdlink": "view"
+                }
+                
+                
+            ]
+        },
+        {
+            "group": "API(js接口)",
+            "contains": [
+                {
+                    "subject": "网络",
+                    "mdlink": "net"
+                },
+                {
+                    "subject": "扫码",
+                    "mdlink": "scan"
+                },
+                {
+                    "subject": "位置",
+                    "mdlink": "location"
+                },
+                {
+                    "subject": "交互",
+                    "mdlink": "dialog"
+                },
+                {
+                    "subject": "选择图片",
+                    "mdlink": "pic"
+                },
+                {
+                    "subject": "缓存",
+                    "mdlink": "store"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+# net
+网络请求。
+<h2 id="cid_2">发起网络请求参数</h2>
+<table>
+    <tr>
+        <th>参数</th>
+        <th>说明</th>
+        <th>类型</th>
+        <th>必填</th>
+        <th>默认值</th>
+    </tr>
+    <tr>
+        <td>url</td>
+        <td>服务器接口地址</td>
+        <td>string</td>
+        <td>是</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>data</td>
+        <td>请求参数</td>
+        <td>string</td>
+        <td>是</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>method</td>
+        <td>请求方法</td>
+        <td>string</td>
+        <td>是</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>headers</td>
+        <td>设置请求的 header</td>
+        <td>Object</td>
+        <td>否</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>success</td>
+        <td>接口调用成功的回调函数</td>
+        <td>function</td>
+        <td>否</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>fail</td>
+        <td>接口调用失败的回调函数</td>
+        <td>function</td>
+        <td>否</td>
+        <td>-</td>
+    </tr>
+</table>
+
+<h2 id="cid_2">示例</h2>
+
+```html
+agileBridge.net.fetch({
+    url:'https://cnodejs.org/api/v1/topics?limit=1',
+    data:'',
+    header:'',
+    method:'get',
+    dataType:'json',
+    responseType:'text',
+    success:function(res){
+        // alert(res)
+        console.log(res)
+        self.setData({
+            result:JSON.stringify(res)
+        })
+    },
+    error:function(error){
+        console.log(error)
+    }
+});
+```
+
+<h2 id="cid_2">上传附件参数</h2>
+<table>
+    <tr>
+        <th>参数</th>
+        <th>说明</th>
+        <th>类型</th>
+        <th>必填</th>
+        <th>默认值</th>
+    </tr>
+    <tr>
+        <td>url</td>
+        <td>服务器接口地址</td>
+        <td>string</td>
+        <td>是</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>headers</td>
+        <td>设置请求的 header</td>
+        <td>Object</td>
+        <td>否</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>formData</td>
+        <td>HTTP 请求中其他额外的 form data</td>
+        <td>Object</td>
+        <td>否</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>fileName</td>
+        <td>文件对应的 key</td>
+        <td>string</td>
+        <td>是</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>filePath</td>
+        <td>要上传文件资源的路径</td>
+        <td>string</td>
+        <td>是</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>success</td>
+        <td>接口调用成功的回调函数</td>
+        <td>function</td>
+        <td>否</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>fail</td>
+        <td>接口调用失败的回调函数</td>
+        <td>function</td>
+        <td>否</td>
+        <td>-</td>
+    </tr>
+</table>
+
+```html
+agileBridge.net.uploadFile({
+    url:'http://172.16.40.64/demo/access/wx/uploadFile',
+    filePath:self.file[0],
+    fileName:'file',
+    formData:{
+        a:1,
+        b:2
+    },
+    success:(res)=>{
+        console.info(res)
+    },
+    fail:()=>{
+
+    }
+})
+```
