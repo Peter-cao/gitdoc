@@ -80,6 +80,20 @@ npm install
 
 也可以点击<code>开发管理</code>菜单，在弹出面板的<code>启动本地服务</code>中选择<code>钉钉/支付宝</code>，点击确定即可完成阿里小程序的编译。
 
+## 调试
+
+H5调试可直接在chrome浏览器打开开发者工具调试，可以直接指定到具体文件调试。
+
+微信小程序和钉钉小程序请在对应的IDE中调试。
+
+
+## 打包
+
+H5打包可在终端执行命令<code>npm run browser:build</code>，打包后的文件位于out-browser/dist/public目录。
+
+微信小程序和钉钉小程序请在对应IDE中打包和发布。
+
+
 ## 说明
 
 ### VSCODE 扩展关联
