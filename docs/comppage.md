@@ -17,6 +17,9 @@ PageWrapper({
     data: {
         // 页面数据
     },
+    methods: {
+        // 组件的方法列表
+    },
     observers: {
         // 监听数据变化
     }

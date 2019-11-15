@@ -53,3 +53,12 @@ npm install
 编译命令：<code>npm run watch aliapp</code>启动页面监听，然后使用阿里官方的开发工具IDE打开out-aliapp目录（该IDE内部可切换钉钉和支付宝小程序环境）。
 
 也可以点击<code>开发管理</code>菜单，在弹出面板的<code>启动本地服务</code>中选择<code>钉钉/支付宝</code>，点击确定即可完成阿里小程序的编译。
+
+### VSCODE 扩展关联
+打开任意axc文件,点击右下角的“纯文本”按钮，然后点击AUI。axp文件同样操作一次。        
+<img src="./start.png"/>
+
+### 起始页面
+
+应用启动的起始页面固定为/src/pages/index/index.axp。
+
