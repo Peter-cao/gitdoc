@@ -10,7 +10,7 @@ BBuilder内置axicompiler框架，该框架包含编译器、DSL定义规范和�
 
 axicompiler编译器原理是将各个平台运行环境抽象出一个模型，在该模型的基础上设计统一DSL规范。
 
-该DSL规范类似于VUE，但是分为页面代码和组件代码两部分，结构和生命周期略有区别。详情请移步至：<a href="./page.html" target="_blank">页面定义</a>、<a href="./component.html" target="_blank">组件定义</a>
+该DSL规范类似于VUE，但是分为页面代码和组件代码两部分，结构和生命周期略有区别。详情请移步至：<a href="./comppage.html" target="_blank">组件和页面</a>
 
 需要注意的是，目前DSL规范还不支持template，统一使用组件代替。
 
