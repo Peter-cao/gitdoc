@@ -18,10 +18,16 @@ PageWrapper({
         // 页面数据
     },
     methods: {
-        // 组件的方法列表
+        // 页面的方法列表
     },
     observers: {
         // 监听数据变化
+        /*
+        形如：
+        'key1.key2.key3': function(){
+            // 当data中key1.key2.key3值变化时触发
+        }
+        */
     }
     // 页面方法
 });
