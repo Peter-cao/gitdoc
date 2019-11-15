@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td>for</td>
-        <td>绑定控件的 id<td>
+        <td>绑定控件的 id</td>
         <td>string</td>
         <td>-</td>
         <td>-</td>
